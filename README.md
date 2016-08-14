@@ -14,5 +14,5 @@
 
 ``` shell
 # run the game for 6 dices and 4 players
-ruby simulate.rb 6 "Abdul Henry John Bob"
+ruby simulator.rb 6 "Abdul Henry John Bob"
 ```
