@@ -18,7 +18,7 @@ class Game
 	private
 
 	#
-  # all players roll their dices
+	# all players roll their dices
 	#
 	def start_round
 		show_round_number
@@ -27,8 +27,8 @@ class Game
 		puts "\nAfter dices rolled:\n"
 
 		@players.each { |player|
-				player.roll_dices
-				player.show_dices
+			player.roll_dices
+			player.show_dices
 		}
 
 		puts "\nAfter dice moved/removed:\n"
@@ -57,13 +57,13 @@ class Game
 	# print winners names
 	#
 	def show_winners
-			@winners.each_with_index { |winner,i| puts "\nwinner number #{i+1}: #{winner.name}"}
+		@winners.each_with_index { |winner,i| puts "\nwinner number #{i+1}: #{winner.name}"}
 	end
 
 	#
 	# print round number
 	#
 	def show_round_number
-			puts "\nRound #{@rounds}\n"
+		puts "\nRound #{@rounds}\n"
 	end
 end
